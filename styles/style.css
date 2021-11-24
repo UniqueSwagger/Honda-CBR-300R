@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden  ;
+
+}
+header{
+
+    background-color: #264653;
+}
+.color-gray{
+    color: #E0E0E0 ;
+}
+.orange{
+
+    color: #E76F51;
+}
+.button{
+    background-color: #E76F51 !important;  
+}
+.featured-bike-img:nth-child(odd){
+
+    filter: grayscale(100%);
+}
+.client-sec,.faq-sec,.login-sec,.search-sec,.latest-news{
+
+    margin-top: 160px;
+}
+.fa-star{
+    color: #E77C40;
+}
+.accordion-item{
+
+    border: 3px solid #D5E5FB !important;
+    border-radius: 5px;
+}
+.accordion-button:hover{
+    color: white ;
+    background-color: rgba(73, 65, 65, 0.822) ;
+    border-radius: 5px;
+    transition: .5s ;
+}
+.accordion-button:not(.collapsed){
+
+    background-color: white !important;
+    color: black !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+.accordion-button:focus{
+
+    box-shadow: none !important;
+}
+.login-content{
+
+    background-color: #660066;
+    border-radius: 20px;
+}
+.hover-underline:hover{
+
+    text-decoration: underline !important;
+
+}
+.footer-app{
+
+    background-color: #000000;
+    padding: 0 10px;
+    width: fit-content;
+    border-radius: 15px;
+    font-size: 13px;
+    border: 1px solid white;
+}
